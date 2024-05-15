@@ -1,5 +1,5 @@
 import unittest
-import aplikasi
+import microsvc.app.aplikasi as aplikasi
 class TestCase(unittest.TestCase):
     def setUp(self):
         aplikasi.app.config["TESTING"] = True
