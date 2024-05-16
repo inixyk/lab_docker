@@ -1,5 +1,5 @@
 import unittest
-import app.aplikasi as aplikasi
+import aplikasi
 class TestCase(unittest.TestCase):
     def setUp(self):
         aplikasi.app.config["TESTING"] = True
