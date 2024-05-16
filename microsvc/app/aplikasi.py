@@ -15,7 +15,7 @@ def utama():
 
     header = '<html><head><title>Aplikasi</title></head><body>'
     body = '''<form method="POST">
-                  Hello <input type="text" name="nama" value="{0}">
+                  Hallo <input type="text" name="nama" value="{0}">
               <input type="submit" value="submit">
               </form>
               <p>Avatar kamu:
